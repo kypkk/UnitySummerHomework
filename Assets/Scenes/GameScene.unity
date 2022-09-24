@@ -1229,6 +1229,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1600247537527589250, guid: f95aece42a03743ecbd4ccc1a0cfcfce,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3937484726984528189, guid: f95aece42a03743ecbd4ccc1a0cfcfce,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1256,6 +1261,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: da669b198a6324e7991e2373e28b3e42, type: 2}
     m_RemovedComponents:
     - {fileID: 5866666021909216657, guid: f95aece42a03743ecbd4ccc1a0cfcfce, type: 3}
+    - {fileID: 1600247537527589250, guid: f95aece42a03743ecbd4ccc1a0cfcfce, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f95aece42a03743ecbd4ccc1a0cfcfce, type: 3}
 --- !u!4 &817646264 stripped
 Transform:
@@ -2232,7 +2238,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2120244037}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 19.431, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &1191920474
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2555,7 +2561,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh36158
+  m_Name: pb_Mesh92414
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
