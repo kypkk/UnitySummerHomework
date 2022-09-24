@@ -29,6 +29,12 @@ public class Enemy : MonoBehaviour
         score.subScore();
       }
     }
+    //if (other.gameObject.tag == "Bullet")
+    //{
+    //  Destroy(this.gameObject);
+    //  score.addScore();
+      
+    //}
   }
 
 }
